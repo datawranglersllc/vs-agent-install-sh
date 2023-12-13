@@ -1,6 +1,6 @@
 This shell script executes commands in Bash to install the VaultSpeed agent in an Ubuntu Linux compute environment. To run it, execute this command in the directory containing the shell script file:
 ```
-  bash api_agent_install.sh xxxxxx@xxxxxx xxxxxxx ubuntu 'snowflaketrial.url=jdbc:snowflake://dactyter-xyx0001999.snowflakecomputing.com?user=snowflaketrial&password=XxXxXxXxXxXxX&warehouse=COMPUTE_WH&db=DBNAME' app
+bash api_agent_install.sh xxxxxx@xxxxxx xxxxxxx ubuntu 'snowflaketrial.url=jdbc:snowflake://dactyter-xyx0001999.snowflakecomputing.com?user=snowflaketrial&password=XxXxXxXxXxXxX&warehouse=COMPUTE_WH&db=DBNAME' app
 ```
 
 Here are descriptions of the 5 parameters:
