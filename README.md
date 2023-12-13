@@ -20,7 +20,7 @@ This routine gets the bearer token for the provided VaultSpeed subscription and:
 - Changes the path for the agent directory from the home directory to the new agent directory for each reference in logging.properties
 - Adds the connections string URL provided in the parameters
 - Starts the VaultSpeed agent in the background
-- Creates the db_link associate with the connection URL
+- Creates the db_link associated with the connection URL
 - Tested the db_link for connectivity
 
 
