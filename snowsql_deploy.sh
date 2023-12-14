@@ -9,7 +9,7 @@ snowsql_conn=VAULTSPEED_TEST
 snowflake_warehouse=VAULTSPEED
 task_schema=TASKER
 default_schedule="USING CRON 0 0 1 1 * America/New_York" ## Here, 01 January at midnight is the default when no schedule is available in the FMC definition
-agent_folder=/home/vsstudent/agent
+agent_folder=/home/ubuntu/agent
 zipname=$1
 
 ## Set file and directory paths
