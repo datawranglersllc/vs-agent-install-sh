@@ -59,7 +59,7 @@ echo ">>> Adding connection string url for database in connections.properties"
 sed -i "$ a$CONNSTR" $AGENT_FOLDER_PATH/connections.properties
 
 echo ">>> Starting agent in background"
-nohup $JAVA_CMD -Djava.util.logging.config.file=$AGENT_FOLDER_PATH/logging.properties -jar $AGENT_FOLDER_PATH/vs-agent.jar propsfile=$AGENT_FOLDER_PATH/client.properties &
+nohup $JAVA_CMD -Djava.util.logging.config.file=$AGENT_FOLDER_PATH/logging.properties -jar $AGENT_FOLDER_PATH/vs-agent.jar propsfile=$AGENT_FOLDER_PATH/client.properties >/dev/null 2>&1 &
 
 #Create postgres db_link
 echo ">>> Creating Snowflake DB link"
